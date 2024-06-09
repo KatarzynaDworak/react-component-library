@@ -1,16 +1,23 @@
 import React from "react";
 
 const menuItems = [
-    {text: 'start', url: '/'},
-    {text: 'regulamin', url: '/regulamin'}
+    {text: 'News', url: '/'},
+    {text: 'Regulations', url: '/regulations'}
 ]
+
+const styles = {
+    color: 'red',
+    'text-decoration': 'none',
+    'list-style-type': 'none'
+}
 
 const Nav = () => {
     return (
+
         <ul>
             {menuItems.map(item => (
-                <li key={item.text}>
-                    <a href={item.url}>
+                <li key={item.text} style={styles}>
+                    <a href={item.url} style={styles}>
                         {item.text}
                     </a>
                 </li>

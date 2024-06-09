@@ -8,7 +8,13 @@ const menuItems = [
 const Nav = () => {
     return (
         <ul>
-            <li>{ menuItems }</li>
+            {menuItems.map(item => (
+                <li key={item.text}>
+                    <a href={item.url}>
+                        {item.text}
+                    </a>
+                </li>
+            ))}
         </ul>
     )
 }

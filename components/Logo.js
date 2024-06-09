@@ -7,12 +7,11 @@ const myStyles = {
 }
 
 const Logo = () => {
-    return 
+    return (
         <>
             <div>Logo</div>
-            // <img src={''} alt={'LOGO'} style={ myStyles } />
-            <div style={ myStyles }></div>
         </>
+    )
 }
 
 export default Logo;

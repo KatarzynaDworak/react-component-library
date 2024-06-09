@@ -1,16 +1,14 @@
 import React from "react";
 
 const myStyles = {
-    border: '1px solid red',
-    hight: '100px',
-    width: '100px'
+    border: '2px solid red',
+    'border-radius': '10px'
 }
 
 const Logo = () => {
     return (
-        <>
-            <div>Logo</div>
-        </>
+            <img src="" alt='logo' style={myStyles}></img>
+
     )
 }
 

@@ -1,9 +1,13 @@
 import React from "react";
 
-const Post = (props) => {
+const data = [
+    '    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea temporibus quisquam itaque animi officiis? Fugiat distinctio ducimus beatae dolorem animi est placeat ex aut maxime perspiciatis neque voluptatibus, suscipit et!'
+]
+
+const Post = () => {
     return (
         <>
-            <div>{props.data}</div>
+            <div>{data}</div>
         </>
     )
 }

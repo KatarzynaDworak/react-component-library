@@ -1,9 +1,14 @@
 import React from "react";
+import ContentLeft from './ContentLeft';
+import ContentRight from './ContentRight';
+import ContentMain from './ContentMain';
 
 const Content = () => {
     return (
         <>
-            <div>Content</div>
+            <ContentLeft />
+            <ContentMain />
+            <ContentRight />
         </>
     )
 }

@@ -1,9 +1,10 @@
 import React from "react";
+import Gallery from "./Gallery";
 
 const ContentRight = () => {
     return (
         <>
-            <div>ContentRight</div>
+            <Gallery />
         </>
     )
 }

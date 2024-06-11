@@ -4,7 +4,9 @@ import Nav from "./Nav";
 
 //NIE ustawia w jednej linii Nav i Logo
 const myStyles = {
-    'display': 'inline-block'
+    display: 'flex',
+    margin: '30px 10px 50px',
+    justifyContent: 'center'
 }
 
 const Header = () => {

@@ -1,10 +1,10 @@
 import React from "react";
-import Gallery from "./Gallery";
+import Post from "./Post";
 
 const ContentRight = () => {
     return (
         <>
-            <Gallery />
+            <Post />
         </>
     )
 }

@@ -2,7 +2,9 @@ import React from "react";
 
 const myStyles = {
     border: '2px solid red',
-    'border-radius': '10px'
+    borderRadius: '10px',
+    paddingTop: '15px',
+    marginRight: '25px'
 }
 
 const Logo = () => {

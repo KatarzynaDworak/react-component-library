@@ -5,19 +5,24 @@ const menuItems = [
     {text: 'Regulations', url: '/regulations'}
 ]
 
-const styles = {
+const navStyles = {
+    display: 'flex',
     color: 'red',
-    'text-decoration': 'none',
-    'list-style-type': 'none'
+    textDecoration: 'none',
+    listStyleType: 'none'
+}
+
+const liStyles = {
+    paddingLeft: '25px'
 }
 
 const Nav = () => {
     return (
 
-        <ul>
+        <ul style={navStyles}>
             {menuItems.map(item => (
-                <li key={item.text} style={styles}>
-                    <a href={item.url} style={styles}>
+                <li key={item.text} style={liStyles}>
+                    <a href={item.url}>
                         {item.text}
                     </a>
                 </li>

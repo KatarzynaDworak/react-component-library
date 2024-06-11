@@ -1,9 +1,10 @@
 import React from "react";
+import Post from "./Post";
 
 const ContentMain = () => {
     return (
         <>
-            <div>ContentMain</div>
+            <Post />
         </>
     )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+// import logo from "../src/public/logo.png"
 
 const myStyles = {
     border: '2px solid red',
@@ -9,7 +10,7 @@ const myStyles = {
 
 const Logo = () => {
     return (
-            <img src="" alt='logo' style={myStyles}></img>
+            <img src='' alt='logo' style={myStyles}></img>
 
     )
 }

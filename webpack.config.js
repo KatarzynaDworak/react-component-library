@@ -31,7 +31,7 @@ module.exports = {
             template: './src/index.html',
             // wskazuje plik źródłowy
             filename: 'index.html'
-            // określan nazwę dla pliku
+            // określam nazwę dla pliku
         })
     ]
 }

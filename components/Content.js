@@ -2,6 +2,7 @@ import React from "react";
 import ContentLeft from './ContentLeft';
 import ContentRight from './ContentRight';
 import ContentMain from './ContentMain';
+import Gallery from "./Gallery";
 
 const myStyles = {
     display: 'flex',
@@ -14,7 +15,7 @@ const Content = () => {
     return (
         <div style={myStyles}>
             <ContentLeft />
-            <ContentMain />
+            <ContentMain content={Gallery}/>
             <ContentRight />
         </div>
     )

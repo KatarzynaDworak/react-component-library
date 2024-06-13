@@ -1,11 +1,11 @@
 import React from "react";
-import Post from "./Post";
 
-const ContentMain = () => {
+const ContentMain = (props) => {
     return (
-        <>
-            <Post />
-        </>
+        <div>
+            <div>TEST</div>
+            {props.content}
+        </div>
     )
 }
 

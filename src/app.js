@@ -23,4 +23,4 @@ const root = createRoot(document.querySelector('#root'));
 root.render(<App />);
 
 // jak pobrać obrazki do galerii/ logo
-// pliki powinny być jsx
+// pliki powinny być jsx?
